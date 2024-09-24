@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elinewidvey/RiderProjects/Kartverket.Test/Kartverket.Test/Kartverket.Test.csproj": {}
+    "/Users/elinewidvey/RiderProjects/Kartverket.Mvc.Gruppe4/Kartverket.Test/Kartverket.Test.csproj": {}
   },
   "projects": {
-    "/Users/elinewidvey/RiderProjects/Kartverket.Test/Kartverket.Test/Kartverket.Test.csproj": {
+    "/Users/elinewidvey/RiderProjects/Kartverket.Mvc.Gruppe4/Kartverket.Test/Kartverket.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elinewidvey/RiderProjects/Kartverket.Test/Kartverket.Test/Kartverket.Test.csproj",
+        "projectUniqueName": "/Users/elinewidvey/RiderProjects/Kartverket.Mvc.Gruppe4/Kartverket.Test/Kartverket.Test.csproj",
         "projectName": "Kartverket.Test",
-        "projectPath": "/Users/elinewidvey/RiderProjects/Kartverket.Test/Kartverket.Test/Kartverket.Test.csproj",
+        "projectPath": "/Users/elinewidvey/RiderProjects/Kartverket.Mvc.Gruppe4/Kartverket.Test/Kartverket.Test.csproj",
         "packagesPath": "/Users/elinewidvey/.nuget/packages/",
-        "outputPath": "/Users/elinewidvey/RiderProjects/Kartverket.Test/Kartverket.Test/obj/",
+        "outputPath": "/Users/elinewidvey/RiderProjects/Kartverket.Mvc.Gruppe4/Kartverket.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/elinewidvey/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
