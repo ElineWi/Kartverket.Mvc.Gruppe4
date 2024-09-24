@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Kartverket.Test.Controllers;
-
-public class BrukerController : Controller
+namespace Kartverket.Test.Controllers
 {
-// GET
-    public IActionResult Index()
+    public class BrukerController : Controller
     {
-        return View();
+        // GET
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }
