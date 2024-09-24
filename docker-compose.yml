@@ -1,0 +1,6 @@
+﻿services:
+  kartverket.test:
+    image: kartverket.test
+    build:
+      context: .
+      dockerfile: Kartverket.Test/Dockerfile
